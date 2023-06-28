@@ -1,0 +1,35 @@
+{
+  "name": "batteryjs",
+  "description": "Extremely simple JS UI framework for learning purposes",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "repository": {
+    "url": "git+https://github.com/TobiasKrok/batteryjs.git"
+  },
+  "keywords": [
+    "javascript",
+    "js",
+    "typescript",
+    "framework",
+    "web"
+  ],
+  "author": "Tobias Kroknes Kristiansen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TobiasKrok/batteryjs/issues"
+  },
+  "homepage": "https://github.com/TobiasKrok/batteryjs#readme",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "@types/web": "^0.0.99"
+  }
+}
